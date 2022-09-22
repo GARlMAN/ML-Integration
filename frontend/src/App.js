@@ -14,8 +14,8 @@ function App() {
   
   async function loadModel() {
     const webModel = await tf.loadLayersModel(
-      "https://raw.githubusercontent.com/GARlMAN/testing-deployment/master/models_save/model.json"
-      );
+      "https://raw.githubusercontent.com/rijulsarji/ML-Integration/master/models_save/model.json"
+    );
       setModel(webModel);
       setLoad(false)
     }
